@@ -5,7 +5,7 @@ import Foo from '..';
 
 describe('test props', () => {
   it('render', () => {
-    const { asFragment } = render(<Foo title="bbb" />);
+    const { asFragment } = render(<Foo />);
     expect(asFragment()).toMatchSnapshot();
   });
 });

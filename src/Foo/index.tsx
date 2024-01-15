@@ -1,5 +1,8 @@
-import React, { type FC } from 'react';
+import { Button } from 'antd';
+import React from 'react';
 
-const Foo: FC<{ title: string }> = (props) => <h4>{props.title}</h4>;
+const Foo = () => {
+  return <Button>xxx</Button>;
+};
 
 export default Foo;

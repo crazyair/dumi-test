@@ -2,8 +2,13 @@
 
 exports[`test props render 1`] = `
 <DocumentFragment>
-  <h4>
-    bbb
-  </h4>
+  <button
+    class="ant-btn ant-btn-default"
+    type="button"
+  >
+    <span>
+      xxx
+    </span>
+  </button>
 </DocumentFragment>
 `;
