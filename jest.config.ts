@@ -17,16 +17,6 @@ export default async () => {
         'src/**/*.{ts,tsx,js,jsx}',
         '!src/.dumi/**',
         '!src/.umi-test/**',
-        '!.umi/**',
-        '!.umi-test/**',
-        '!.umi-production/**',
-        '!.umirc.{js,ts}',
-        '!.umirc.*.{js,ts}',
-        '!jest.config.{js,ts}',
-        '!coverage/**',
-        '!dist/**',
-        '!config/**',
-        '!mock/**',
       ],
       // if you require some es-module npm package, please uncomment below line and insert your package name
       // transformIgnorePatterns: ['node_modules/(?!.*(lodash-es|your-es-pkg-name)/)']
