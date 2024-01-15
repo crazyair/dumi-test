@@ -11,8 +11,12 @@ export default async () => {
       }),
 
       setupFilesAfterEnv: ['<rootDir>/jest-setup.ts'],
+      collectCoverage: true,
+      coverageReporters: ['clover', 'json', 'lcov', 'text', 'cobertura'],
       collectCoverageFrom: [
-        '**/*.{ts,tsx,js,jsx}',
+        'src/**/*.{ts,tsx,js,jsx}',
+        '!src/.dumi/**',
+        '!src/.umi-test/**',
         '!.umi/**',
         '!.umi-test/**',
         '!.umi-production/**',
