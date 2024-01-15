@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test props render 1`] = `
+<DocumentFragment>
+  <h4>
+    bbb
+  </h4>
+</DocumentFragment>
+`;
