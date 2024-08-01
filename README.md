@@ -1,17 +1,6 @@
-# dumi-test
+# 
 
-[![NPM version](https://img.shields.io/npm/v/dumi-test.svg?style=flat)](https://npmjs.org/package/dumi-test)
-[![NPM downloads](http://img.shields.io/npm/dm/dumi-test.svg?style=flat)](https://npmjs.org/package/dumi-test)
-
-A react library developed with dumi
-
-## Usage
-
-TODO
-
-## Options
-
-TODO
+A static site base on [dumi](https://d.umijs.org).
 
 ## Development
 
@@ -19,20 +8,14 @@ TODO
 # install dependencies
 $ pnpm install
 
-# develop library by docs demo
+# start dev server
 $ pnpm start
 
-# build library source code
+# build docs
 $ pnpm run build
 
-# build library source code in watch mode
-$ pnpm run build:watch
-
-# build docs
-$ pnpm run docs:build
-
-# check your project for potential problems
-$ pnpm run doctor
+# Locally preview the production build
+$ pnpm run preview
 ```
 
 ## LICENSE
